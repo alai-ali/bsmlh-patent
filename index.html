@@ -1,0 +1,85 @@
+cat > index.html << 'HTMLEOF'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BSMLH - Patent & Identity Registry</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #fff; color: #111; }
+header { padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #eee; }
+.logo { font-size: 24px; font-weight: 700; color: #1a1a1a; }
+nav a { color: #555; text-decoration: none; margin-left: 30px; font-size: 15px; }
+nav a:hover { color: #000; }
+.hero { text-align: center; padding: 100px 40px; background: #f9f9f9; }
+.hero h1 { font-size: 48px; font-weight: 700; margin-bottom: 20px; line-height: 1.2; color: #1a1a1a; }
+.hero p { font-size: 18px; color: #666; max-width: 600px; margin: 0 auto 40px; line-height: 1.7; }
+.btn { display: inline-block; background: #1a1a1a; color: #fff; padding: 14px 32px; border-radius: 8px; text-decoration: none; font-size: 16px; }
+.features { padding: 80px 40px; max-width: 1000px; margin: 0 auto; }
+.features h2 { text-align: center; font-size: 32px; margin-bottom: 50px; color: #1a1a1a; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+.card { border: 1px solid #eee; border-radius: 12px; padding: 28px; }
+.card h3 { color: #1a1a1a; margin-bottom: 12px; font-size: 18px; }
+.card p { color: #666; line-height: 1.6; font-size: 15px; }
+.contact { background: #f9f9f9; padding: 60px 40px; text-align: center; }
+.contact h2 { font-size: 28px; margin-bottom: 16px; }
+.contact p { color: #666; margin-bottom: 8px; }
+.contact a { color: #1a1a1a; font-weight: 600; }
+footer { text-align: center; padding: 30px; border-top: 1px solid #eee; color: #999; font-size: 14px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">BSMLH</div>
+  <nav>
+    <a href="#features">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+<section class="hero">
+  <h1>Patent & Identity<br>Registry Platform</h1>
+  <p>BSMLH provides secure digital registration of patents and intellectual property with tamper-proof verification and identity authentication.</p>
+  <a href="#contact" class="btn">Contact Us</a>
+</section>
+<section class="features" id="features">
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Patent Registration</h3>
+      <p>Secure and permanent registration of patents and intellectual property with digital proof of ownership and timestamp verification.</p>
+    </div>
+    <div class="card">
+      <h3>Identity Verification</h3>
+      <p>Biometric identity authentication using official documents for reliable and secure user verification.</p>
+    </div>
+    <div class="card">
+      <h3>Document Authentication</h3>
+      <p>Digital authentication of documents with cryptographic signatures ensuring integrity and authenticity.</p>
+    </div>
+    <div class="card">
+      <h3>Ownership Proof</h3>
+      <p>Immutable proof of intellectual property ownership with legally verifiable timestamps and records.</p>
+    </div>
+    <div class="card">
+      <h3>Secure Storage</h3>
+      <p>Military-grade encryption for all registered documents and identity data with zero data leakage.</p>
+    </div>
+    <div class="card">
+      <h3>Mobile Application</h3>
+      <p>Available on Android and iOS. Register and verify patents anywhere, anytime from your mobile device.</p>
+    </div>
+  </div>
+</section>
+<section class="contact" id="contact">
+  <h2>Get in Touch</h2>
+  <p>For inquiries about our services:</p>
+  <p><a href="mailto:info@bsmlh.app">info@bsmlh.app</a></p>
+  <p><a href="mailto:support@bsmlh.app">support@bsmlh.app</a></p>
+</section>
+<footer>
+  <p>© 2026 BSMLH. All rights reserved.</p>
+</footer>
+</body>
+</html>
+HTMLEOF
